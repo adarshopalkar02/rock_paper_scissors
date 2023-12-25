@@ -19,9 +19,6 @@ const Drawgame = ()=>
  msg.innerText ="GAME WAS DRAW";
  msg.style.backgroundColor="yellow";
  msg.style.color="black";
- 
-
-
 
 };
 const showWinner =(userWin,userchoice,compchoice) =>
@@ -41,7 +38,7 @@ const showWinner =(userWin,userchoice,compchoice) =>
     compScore++;
     compScorePara.innerText=compScore;
     console.log("YOU LOSE");
-    msg.innerText =`YouLose ${compchoice} beats your${ userchoice}`;
+    msg.innerText =`You Lose ${compchoice} beats your${ userchoice}`;
     msg.style.backgroundColor="red";
 
 
